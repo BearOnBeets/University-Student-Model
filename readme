@@ -1,0 +1,31 @@
+Tested using postman and POST data was passed using "form-data" option
+
+URLs-
+
+Index-(GET)
+http://127.0.0.1:8000/students/    
+
+Create student-(POST) Pass "name","course","grade","university"
+
+http://127.0.0.1:8000/students/create    
+
+Update Student-(POST) Pass "id"
+
+http://127.0.0.1:8000/students/update  
+
+delete Student-(POST)  Pass "id"
+
+http://127.0.0.1:8000/students/delete
+
+All Student-(GET)
+
+http://127.0.0.1:8000/students/all
+
+Create University-(POST) Pass "university_name","location"
+
+http://127.0.0.1:8000/students/createuniversity
+
+All University-(GET)
+
+http://127.0.0.1:8000/students/alluniversity 
+
